@@ -27,7 +27,7 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
      * 0_space, 1_collection, 2_wall, 3_oil pollution, 4-6_plastic lv1-3, 7_entrance, 8_exit
      */
 
-    [Header("是否通过程序来创建地板，如果否的话，就需要自己创建")]
+    [Header("是否通过程序来创建地板和墙壁，如果否的话，就需要自己创建")]
     public bool createFloorByProgram = true;
 
     public Vector3 rightVec = new Vector3(1, 0, 0); // Length
@@ -90,8 +90,31 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
         floor.transform.localScale = new Vector3(mapLength * eachLength, 1, mapHeight * eachHeight);
         floor.transform.position = new Vector3(
             originPoint.transform.position.x + mapLength * eachLength / 2,
-            -0.5f,
+            -1.0f,
             originPoint.transform.position.z - mapHeight * eachLength / 2);
+
+        GameObject wall1 = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        wall1.GetComponent<Renderer>().enabled = false;
+        wall1.name = "wall1";
+        wall1.transform.localScale = new Vector3(1f, 100f, 3 * mapHeight); // 左边的墙
+        wall1.transform.position = originPoint.position + eachHeight * mapHeight / 2 * downVec - eachLength / 2 * rightVec;
+        GameObject wall2 = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        wall2.GetComponent<Renderer>().enabled = false;
+        wall2.name = "wall2";
+        wall2.transform.localScale = new Vector3(1f, 100f, 3 * mapHeight); // 右边
+        wall2.transform.position = originPoint.position + eachHeight * mapHeight / 2 * downVec +
+            eachLength * mapLength * rightVec + eachLength / 2 * rightVec;
+        GameObject wall3 = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        wall3.GetComponent<Renderer>().enabled = false;
+        wall3.name = "wall3";
+        wall3.transform.localScale = new Vector3(3 * mapLength, 100f, 1f); // 上面
+        wall3.transform.position = originPoint.position + eachLength * mapLength / 2 * rightVec - eachHeight / 2 * downVec;
+        GameObject wall4 = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        wall4.GetComponent<Renderer>().enabled = false;
+        wall4.name = "wall4";
+        wall4.transform.localScale = new Vector3(3 * mapLength, 100f, 1f); // 上面
+        wall4.transform.position = originPoint.position + eachLength * mapLength / 2 * rightVec + eachHeight * mapHeight * downVec
+            + eachHeight / 2 * downVec;
     }
 
 	// Use this for initialization

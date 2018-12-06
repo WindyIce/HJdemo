@@ -52,9 +52,8 @@ public class WanderingAI : MonoBehaviour
 
     // Update is called once per frame
 
-    void Update()
+    public void FixedUpdate()
     {
-
         transform.Translate(0, 0, speed * Time.deltaTime);
 
         Ray ray = new Ray(transform.position, transform.forward);
@@ -85,6 +84,12 @@ public class WanderingAI : MonoBehaviour
             }
 
         }
+    }
+
+    void Update()
+    {
+
+        
 
 
 
