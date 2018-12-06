@@ -10,6 +10,7 @@ public class SceneManager : BaseSingleton<SceneManager> {
     public Player player;
 
     public Text coralText;
+    public Text healthText;
 
     [Header("需要多少个珊瑚过关")]
     public int coralNeeded = 10;

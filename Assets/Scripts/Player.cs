@@ -27,7 +27,12 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         currentHP = maxHP;
+        if (healthText==null)
+        {
+            healthText = SceneManager.Instance().healthText;
+        }
         healthText.text = "Health: " + currentHP;
+        
 	}
 	
 	// Update is called once per frame

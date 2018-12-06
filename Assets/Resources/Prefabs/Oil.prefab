@@ -9,47 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1658717263754226}
+  m_RootGameObject: {fileID: 1000837686889232}
   m_IsPrefabAsset: 1
---- !u!1 &1658717263754226
+--- !u!1 &1000837686889232
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4521003257481854}
-  - component: {fileID: 33523884877190798}
-  - component: {fileID: 23031750243436608}
-  - component: {fileID: 65888484912562902}
-  - component: {fileID: 54262262186350736}
-  - component: {fileID: 114001356004149724}
+  - component: {fileID: 4301813333288406}
+  - component: {fileID: 33105728418777718}
+  - component: {fileID: 23762187202834814}
+  - component: {fileID: 65866937770323372}
+  - component: {fileID: 114583768360842088}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4521003257481854
+--- !u!4 &4301813333288406
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
+  m_GameObject: {fileID: 1000837686889232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8832474, y: 21.185226, z: -10}
+  m_LocalPosition: {x: 24.378208, y: 4.3249583, z: 0.19499421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23031750243436608
+--- !u!23 &23762187202834814
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
+  m_GameObject: {fileID: 1000837686889232}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c4506f85126e22041ad66ed30c07289f, type: 2}
+  - {fileID: 2100000, guid: f79b71e49a193744f811e08cd0013f6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,54 +78,35 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33523884877190798
+--- !u!33 &33105728418777718
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
+  m_GameObject: {fileID: 1000837686889232}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54262262186350736
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!65 &65888484912562902
+--- !u!65 &65866937770323372
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
+  m_GameObject: {fileID: 1000837686889232}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114001356004149724
+--- !u!114 &114583768360842088
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658717263754226}
+  m_GameObject: {fileID: 1000837686889232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb5286e8865ff244d8d606650b440853, type: 3}
+  m_Script: {fileID: 11500000, guid: 859ed85a7afdc0b4aa6708c25f1bad46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 15
-  currentHP: 0
-  healthText: {fileID: 0}
-  rotationChangeSpeed: 1
-  movementLock: 0
-  speed: 2
+  makeSonSpeed: 0.2
+  maxSize: 5

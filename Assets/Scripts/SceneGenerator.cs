@@ -49,13 +49,15 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
                 for (int j = 0; j < mapLength; j++)
                 {
                     if (map[i, j] == 0) continue;
-                    else if (map[i, j] == 3) continue;
                     GameObject obj = Instantiate(prefabIndexCorrespond[map[i, j]]);
                     obj.transform.position = originPoint.position
                         + eachLength * rightVec * (j + 0.5f) + eachHeight * downVec * (i + 0.5f);
                     switch (map[i, j]) {
                         case 2:
                             obj.transform.localScale = new Vector3(eachLength, 3.0f, eachHeight);
+                            break;
+                        case 3:
+                            obj.GetComponent<Oil>().Init(eachLength, eachHeight);
                             break;
                         case 7:
                             SceneManager.Instance().playerObject = obj;
@@ -136,7 +138,6 @@ public class ConfigParser
         int[,] toReturn = new int[mapHeight, mapLength];
         for(int i = 0; i < mapHeight; i++)
         {
-            Debug.Log(i);
             string[] nums = lines[i].Split(new char[2] { ' ', '\r' });
             for(int j = 0; j < mapLength; j++)
             {

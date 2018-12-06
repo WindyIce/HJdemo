@@ -37724,6 +37724,7 @@ MonoBehaviour:
   playerObject: {fileID: 0}
   player: {fileID: 0}
   coralText: {fileID: 1457138328}
+  healthText: {fileID: 1705610194}
   coralNeeded: 12
   exitPoint: {fileID: 0}
   noticeText: {fileID: 540495859}
@@ -37763,7 +37764,7 @@ MonoBehaviour:
   - {fileID: 1898104068715074, guid: 50018071d50f7f246bcf09df52c87dc4, type: 2}
   - {fileID: 1954330151182158, guid: 341e4a864c9104f4583bf49ef59500eb, type: 2}
   - {fileID: 1998443545382188, guid: a5bc354fc17255444baf16e8e0fac279, type: 2}
-  - {fileID: 1898104068715074, guid: 50018071d50f7f246bcf09df52c87dc4, type: 2}
+  - {fileID: 1000837686889232, guid: 5ffe0dae37fc55e4ea6ae8dc46dd5f95, type: 2}
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
