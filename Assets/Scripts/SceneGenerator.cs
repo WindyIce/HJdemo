@@ -53,9 +53,19 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
                     GameObject obj = Instantiate(prefabIndexCorrespond[map[i, j]]);
                     obj.transform.position = originPoint.position
                         + eachLength * rightVec * (j + 0.5f) + eachHeight * downVec * (i + 0.5f);
-                    if (map[i, j] == 2)
-                    {
-                        obj.transform.localScale = new Vector3(eachLength, 3.0f, eachHeight);
+                    switch (map[i, j]) {
+                        case 2:
+                            obj.transform.localScale = new Vector3(eachLength, 3.0f, eachHeight);
+                            break;
+                        case 7:
+                            SceneManager.Instance().playerObject = obj;
+                            SceneManager.Instance().player = obj.GetComponent<Player>();
+                            break;
+                        case 8:
+                            SceneManager.Instance().exitPoint = obj;
+                            break;
+                        default:
+                            break;
                     }
                 }
             }
