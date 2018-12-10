@@ -37768,9 +37768,10 @@ MonoBehaviour:
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
   - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
-  - {fileID: 1658717263754226, guid: c0f170359c70f13439ea2a150cde31b2, type: 2}
-  - {fileID: 1133724249375626, guid: 92bf54f8fffae0a4495cad9534cd6f87, type: 2}
+  - {fileID: 1388580671494256, guid: 213e15dd325000841a86e57574dadb2b, type: 2}
+  - {fileID: 1442557835206656, guid: a50cb319d06f69f4cb178a5150b2a052, type: 2}
   createFloorByProgram: 1
+  floorMaterial: {fileID: 2100000, guid: 509f359d7fb35dd4da320e75e986ccd7, type: 2}
   rightVec: {x: 1, y: 0, z: 0}
   downVec: {x: 0, y: 0, z: -1}
 --- !u!1 &1726928062

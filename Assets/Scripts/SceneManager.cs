@@ -76,6 +76,8 @@ public class SceneManager : BaseSingleton<SceneManager> {
 
 	// Use this for initialization
 	void Start () {
+        coralText.text = "Coral still needed: " + coralNeeded;
+        noticeText.text = "";
         if (playerObject == null)
         {
             playerObject = GameObject.FindWithTag("Player");
@@ -89,8 +91,7 @@ public class SceneManager : BaseSingleton<SceneManager> {
         {
             exitPoint.SetActive(false);
         }
-        coralText.text = "Coral still needed: " + coralNeeded;
-        noticeText.text = "";
+
 	}
 	
 	// Update is called once per frame

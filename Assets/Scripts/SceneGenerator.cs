@@ -29,6 +29,8 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
 
     [Header("是否通过程序来创建地板和墙壁，如果否的话，就需要自己创建")]
     public bool createFloorByProgram = true;
+    [Header("地板的材质")]
+    public Material floorMaterial;
 
     public Vector3 rightVec = new Vector3(1, 0, 0); // Length
     public Vector3 downVec = new Vector3(0, 0, -1); // Height
@@ -43,6 +45,12 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
             else
                 content = mapContent;
             int[,] map = ConfigParser.GetIntArrayFromString(content, mapLength, mapHeight);
+            if (originPoint == null)
+            {
+                GameObject originObject = new GameObject("origin");
+                originPoint = originObject.transform;
+                originPoint.position = Vector3.zero;
+            }
             if (createFloorByProgram) SpaceCreate();
             for (int i = 0; i < mapHeight; i++)
             {
@@ -81,12 +89,7 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
 
     public void SpaceCreate()
     {
-        if (originPoint == null)
-        {
-            GameObject originObject = new GameObject("origin");
-            originPoint = originObject.transform;
-            originPoint.position = Vector3.zero;
-        }
+
         GameObject floor = GameObject.CreatePrimitive(PrimitiveType.Cube);
         floor.name = "floor";
         floor.transform.localScale = new Vector3(mapLength * eachLength, 1, mapHeight * eachHeight);
@@ -94,7 +97,7 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
             originPoint.transform.position.x + mapLength * eachLength / 2,
             -1.0f,
             originPoint.transform.position.z - mapHeight * eachLength / 2);
-
+        floor.GetComponent<Renderer>().sharedMaterial = floorMaterial;
         GameObject wall1 = GameObject.CreatePrimitive(PrimitiveType.Cube);
         wall1.GetComponent<Renderer>().enabled = false;
         wall1.name = "wall1";
