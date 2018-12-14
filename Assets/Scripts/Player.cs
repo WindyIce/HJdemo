@@ -16,6 +16,9 @@ public class Player : MonoBehaviour {
 
     Quaternion targetQuaternion;
 
+    float targetRotationY = 0f;
+
+
     [Header("旋转改变速度")]
     public float rotationChangeSpeed = 1f;
 
@@ -76,13 +79,16 @@ public class Player : MonoBehaviour {
         transform.position += movement;
 
         targetQuaternion = Quaternion.FromToRotation(Vector3.forward, movement);
+
+        targetRotationY = targetQuaternion.eulerAngles.y;
     }
 
     void LerpTransform()
     {
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetQuaternion,
-            rotationChangeSpeed * Time.deltaTime);
-
+        Vector3 targetEuler = new Vector3(
+                transform.eulerAngles.x, targetRotationY, transform.eulerAngles.z);
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation, Quaternion.Euler(targetEuler), rotationChangeSpeed * Time.deltaTime);
     }
 
     public void OnHealthChange(int factor)
