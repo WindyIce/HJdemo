@@ -11,6 +11,9 @@ public class Obstacle : MonoBehaviour {
     [Header("多久扣一次血")]
     public float hitInterval = 1.0f;
 
+    [Header("true: 撞了就消失 false: 持续扣血")]
+    public bool hitMode = true;
+
     float timer = 0f;
 
     bool playerCrashing = false;
@@ -22,7 +25,7 @@ public class Obstacle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (playerCrashing)
+        if (playerCrashing&&!hitMode)
         {
             timer += Time.deltaTime;
             if (timer >= hitInterval)
@@ -40,6 +43,11 @@ public class Obstacle : MonoBehaviour {
             playerCrashing = true;
             SceneManager.Instance().player.OnHitObstacle(minusHP);
             timer = 0f;
+        }
+        if (hitMode)
+        {
+            // 这里要消失，可以把消失的效果写在这
+            Destroy(gameObject);
         }
     }
 
