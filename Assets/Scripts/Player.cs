@@ -109,5 +109,7 @@ public class Player : MonoBehaviour {
     public void OnHitObstacle(int factor = 1)
     {
         OnHealthChange(-factor);
+        //通知UI
+        Messenger<int, int>.Broadcast("UpdatePlayerHPHandle", currentHP, maxHP);
     }
 }

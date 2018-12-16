@@ -67,6 +67,7 @@ public class SceneManager : BaseSingleton<SceneManager> {
         {
             coralText.text = "Coral still needed: " + (coralNeeded - coralGot);
         }
+        Messenger<int>.Broadcast(UIEvent.Update_StillNeedNum, coralNeeded - coralGot);
     }
 
     public void ExitPointOpen()
@@ -83,7 +84,7 @@ public class SceneManager : BaseSingleton<SceneManager> {
         }
         if (player == null)
         {
-            player = playerObject.GetComponent<Player>();
+            player = playerObject==null?null:playerObject.GetComponent<Player>();
         }
         if (exitPoint != null)
         {
@@ -108,4 +109,9 @@ public static class SceneEvent
     public const string GAME_OVER = "GAME_OVER";
     public const string GAME_WIN = "GAME_WIN";
 
+}
+
+public static class UIEvent {
+    public const string Update_PlayerHP = "UpdatePlayerHPHandle";
+    public const string Update_StillNeedNum = "UpdateStillNeedNum";
 }
