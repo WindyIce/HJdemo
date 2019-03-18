@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: fe869725a4e43df418ceba222a5b2737
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Directional Light
+    100004: Health Stick
+    100006: Health Stick (10)
+    100008: Health Stick (11)
+    100010: Health Stick (12)
+    100012: Health Stick (13)
+    100014: Health Stick (14)
+    100016: Health Stick (15)
+    100018: Health Stick (16)
+    100020: Health Stick (17)
+    100022: Health Stick (18)
+    100024: Health Stick (19)
+    100026: Health Stick (2)
+    100028: Health Stick (20)
+    100030: Health Stick (21)
+    100032: Health Stick (22)
+    100034: Health Stick (24)
+    100036: Health Stick (25)
+    100038: Health Stick (26)
+    100040: Health Stick (3)
+    100042: Health Stick (4)
+    100044: Health Stick (5)
+    100046: Health Stick (6)
+    100048: Health Stick (7)
+    100050: Health Stick (8)
+    100052: Health Stick (9)
+    100054: //RootNode
+    100056: Mesh
+    400000: Camera
+    400002: Directional Light
+    400004: Health Stick
+    400006: Health Stick (10)
+    400008: Health Stick (11)
+    400010: Health Stick (12)
+    400012: Health Stick (13)
+    400014: Health Stick (14)
+    400016: Health Stick (15)
+    400018: Health Stick (16)
+    400020: Health Stick (17)
+    400022: Health Stick (18)
+    400024: Health Stick (19)
+    400026: Health Stick (2)
+    400028: Health Stick (20)
+    400030: Health Stick (21)
+    400032: Health Stick (22)
+    400034: Health Stick (24)
+    400036: Health Stick (25)
+    400038: Health Stick (26)
+    400040: Health Stick (3)
+    400042: Health Stick (4)
+    400044: Health Stick (5)
+    400046: Health Stick (6)
+    400048: Health Stick (7)
+    400050: Health Stick (8)
+    400052: Health Stick (9)
+    400054: //RootNode
+    400056: Mesh
+    2000000: Camera
+    2100000: lighttop
+    2100002: CORALTREE
+    2100004: buttom_darkblue
+    2100006: TREEBUTTOM
+    2100008: seedweed
+    2300000: Health Stick
+    2300002: Health Stick (10)
+    2300004: Health Stick (11)
+    2300006: Health Stick (12)
+    2300008: Health Stick (13)
+    2300010: Health Stick (14)
+    2300012: Health Stick (15)
+    2300014: Health Stick (16)
+    2300016: Health Stick (17)
+    2300018: Health Stick (18)
+    2300020: Health Stick (19)
+    2300022: Health Stick (2)
+    2300024: Health Stick (20)
+    2300026: Health Stick (21)
+    2300028: Health Stick (22)
+    2300030: Health Stick (24)
+    2300032: Health Stick (25)
+    2300034: Health Stick (3)
+    2300036: Health Stick (4)
+    2300038: Health Stick (5)
+    2300040: Health Stick (6)
+    2300042: Health Stick (7)
+    2300044: Health Stick (8)
+    2300046: Health Stick (9)
+    3300000: Health Stick
+    3300002: Health Stick (10)
+    3300004: Health Stick (11)
+    3300006: Health Stick (12)
+    3300008: Health Stick (13)
+    3300010: Health Stick (14)
+    3300012: Health Stick (15)
+    3300014: Health Stick (16)
+    3300016: Health Stick (17)
+    3300018: Health Stick (18)
+    3300020: Health Stick (19)
+    3300022: Health Stick (2)
+    3300024: Health Stick (20)
+    3300026: Health Stick (21)
+    3300028: Health Stick (22)
+    3300030: Health Stick (24)
+    3300032: Health Stick (25)
+    3300034: Health Stick (3)
+    3300036: Health Stick (4)
+    3300038: Health Stick (5)
+    3300040: Health Stick (6)
+    3300042: Health Stick (7)
+    3300044: Health Stick (8)
+    3300046: Health Stick (9)
+    4300000: Health Stick (15)
+    4300002: Health Stick (14)
+    4300004: Health Stick
+    4300006: Health Stick (17)
+    4300008: Health Stick (2)
+    4300010: Health Stick (25)
+    4300012: Health Stick (24)
+    4300014: Health Stick (22)
+    4300016: Health Stick (3)
+    4300018: Health Stick (7)
+    4300020: Health Stick (12)
+    4300022: Health Stick (16)
+    4300024: Health Stick (21)
+    4300026: Health Stick (10)
+    4300028: Health Stick (18)
+    4300030: Health Stick (4)
+    4300032: Health Stick (13)
+    4300034: Health Stick (5)
+    4300036: Health Stick (6)
+    4300038: Health Stick (8)
+    4300040: Health Stick (9)
+    4300042: Health Stick (11)
+    4300044: Health Stick (19)
+    4300046: Health Stick (20)
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Directional Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

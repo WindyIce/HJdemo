@@ -37803,13 +37803,13 @@ MonoBehaviour:
     2 0 0 0 0 0 0 0 0
   prefabIndexCorrespond:
   - {fileID: 1898104068715074, guid: 50018071d50f7f246bcf09df52c87dc4, type: 2}
-  - {fileID: 1954330151182158, guid: 341e4a864c9104f4583bf49ef59500eb, type: 2}
-  - {fileID: 1998443545382188, guid: a5bc354fc17255444baf16e8e0fac279, type: 2}
+  - {fileID: 1622481932809120, guid: 214e09b4493e6c146a4ee517213c708b, type: 2}
+  - {fileID: 1373442584434656, guid: b7123ffac311dc247b988d6774a0d5d0, type: 2}
   - {fileID: 1000837686889232, guid: 5ffe0dae37fc55e4ea6ae8dc46dd5f95, type: 2}
-  - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
-  - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
-  - {fileID: 1413888963323976, guid: 576691d27aa2ee64bb16679cda550867, type: 2}
-  - {fileID: 1388580671494256, guid: 213e15dd325000841a86e57574dadb2b, type: 2}
+  - {fileID: 1822234098434646, guid: 80f47ca46a1a42742b16963f6d65589c, type: 2}
+  - {fileID: 1822234098434646, guid: 80f47ca46a1a42742b16963f6d65589c, type: 2}
+  - {fileID: 1822234098434646, guid: 80f47ca46a1a42742b16963f6d65589c, type: 2}
+  - {fileID: 1157333713294182, guid: 1eb713e65eba80e418756e1bfc882fe2, type: 2}
   - {fileID: 1442557835206656, guid: a50cb319d06f69f4cb178a5150b2a052, type: 2}
   createFloorByProgram: 1
   floorMaterial: {fileID: 2100000, guid: 509f359d7fb35dd4da320e75e986ccd7, type: 2}
