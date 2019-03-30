@@ -16,7 +16,7 @@ public class ExitPoint : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == SceneManager.Instance().playerObject)
+        if (other.gameObject == SceneManager.Instance().PlayerObject)
         {
             Messenger.Broadcast(SceneEvent.GAME_WIN);
         }

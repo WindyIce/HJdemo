@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 5f8975955c454bb4b89e6e34a021a946
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: character
+    100004: character (10)
+    100006: character (11)
+    100008: character (12)
+    100010: character (13)
+    100012: character (2)
+    100014: character (3)
+    100016: character (4)
+    100018: character (5)
+    100020: character (6)
+    100022: character (7)
+    100024: character (9)
+    100026: Directional Light
+    100028: Health bubble
+    100030: JELLYFISH
+    100032: //RootNode
+    100034: Mesh
+    100036: PLASTIC
+    400000: Camera
+    400002: character
+    400004: character (10)
+    400006: character (11)
+    400008: character (12)
+    400010: character (13)
+    400012: character (2)
+    400014: character (3)
+    400016: character (4)
+    400018: character (5)
+    400020: character (6)
+    400022: character (7)
+    400024: character (9)
+    400026: Directional Light
+    400028: Health bubble
+    400030: JELLYFISH
+    400032: //RootNode
+    400034: Mesh
+    400036: PLASTIC
+    2000000: Camera
+    2100000: JELLYFISH_PINK
+    2100002: croal_deeppink
+    2100004: PLASTICBAG
+    2300000: character
+    2300002: character (10)
+    2300004: character (11)
+    2300006: character (12)
+    2300008: character (13)
+    2300010: character (2)
+    2300012: character (3)
+    2300014: character (4)
+    2300016: character (5)
+    2300018: character (6)
+    2300020: character (7)
+    2300022: character (9)
+    2300024: Health bubble
+    2300026: PLASTIC
+    3300000: character
+    3300002: character (10)
+    3300004: character (11)
+    3300006: character (12)
+    3300008: character (13)
+    3300010: character (2)
+    3300012: character (3)
+    3300014: character (4)
+    3300016: character (5)
+    3300018: character (6)
+    3300020: character (7)
+    3300022: character (9)
+    3300024: Health bubble
+    3300026: PLASTIC
+    4300000: Health bubble
+    4300002: character (12)
+    4300004: character (7)
+    4300006: character (13)
+    4300008: character
+    4300010: character (4)
+    4300012: character (2)
+    4300014: character (3)
+    4300016: character (11)
+    4300018: character (10)
+    4300020: character (9)
+    4300022: character (6)
+    4300024: character (5)
+    4300026: PLASTIC
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Directional Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

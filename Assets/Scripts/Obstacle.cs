@@ -18,10 +18,6 @@ public class Obstacle : MonoBehaviour {
 
     bool playerCrashing = false;
     
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,23 +34,29 @@ public class Obstacle : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == SceneManager.Instance().playerObject)
+        if (other.gameObject.CompareTag("Player"))
         {
-            playerCrashing = true;
-            SceneManager.Instance().player.OnHitObstacle(minusHP);
-            timer = 0f;
-        }
-        if (hitMode)
-        {
-            // 这里要消失，可以把消失的效果写在这
-            Destroy(gameObject);
+            if (hitMode)
+            {
+                SceneManager.Instance().player.OnHitObstacle(minusHP);
+                Destroy(gameObject);
+            }
+            else
+            {
+                playerCrashing = true;
+                timer = 0f;
+            }
         }
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == SceneManager.Instance().playerObject)
+        if (other.gameObject.CompareTag("Player"))
         {
+            if (hitMode)
+            {
+                return;
+            }
             playerCrashing = false;
             timer = 0f;
         }

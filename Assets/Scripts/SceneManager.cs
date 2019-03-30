@@ -6,11 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : BaseSingleton<SceneManager> {
 
-    public GameObject playerObject;
+    private GameObject playerObject;
+
+    public GameObject PlayerObject
+    {
+        get
+        {
+            if (playerObject == null)
+            {
+                playerObject= GameObject.FindWithTag("Player").gameObject;
+            }
+
+            return playerObject;
+        }
+    }
+    [HideInInspector]
     public Player player;
 
     public Text coralText;
-    public Text healthText;
 
     [Header("需要多少个珊瑚过关")]
     public int coralNeeded = 10;
@@ -79,14 +92,9 @@ public class SceneManager : BaseSingleton<SceneManager> {
 	void Start () {
         coralText.text = "Coral still needed: " + coralNeeded;
         noticeText.text = "";
-        if (playerObject == null)
-        {
-            playerObject = GameObject.FindWithTag("Player");
-            
-        }
         if (player == null)
         {
-            player = playerObject==null?null:playerObject.GetComponent<Player>();
+            player = PlayerObject==null?null:PlayerObject.GetComponent<Player>();
         }
         if (exitPoint != null)
         {

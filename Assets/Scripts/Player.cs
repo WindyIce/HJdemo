@@ -27,46 +27,24 @@ public class Player : MonoBehaviour {
     [Header("玩家移动速度")]
     public float speed = 1f;
 
-	// Use this for initialization
-	void Start () {
+    private void Start()
+    {
         currentHP = maxHP;
-        if (healthText==null)
-        {
-            healthText = SceneManager.Instance().healthText;
-        }
-        healthText.text = "Health: " + currentHP;
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (!movementLock)
-        {
-
-        }
-	}
+        Messenger<int, int>.Broadcast(UIEvent.Update_PlayerHP, maxHP, maxHP);
+    }
 
     public void FixedUpdate()
     {
         if (movementLock) return;
         float h;
         float v;
-
-
-
         h = Input.GetAxis("Horizontal");
         v = Input.GetAxis("Vertical");
-        //float h = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-        //float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
-
-        //float temp = v;
-        //v = h;
-        //h = -temp;
-        
-
+        if (h == 0 && v == 0)
+        {
+            return;
+        }
         Move(h, v);
-        //Turning ();
-
         LerpTransform();
     }
 
@@ -108,7 +86,6 @@ public class Player : MonoBehaviour {
                 print(e);
             }
         }
-        healthText.text = "Health: " + currentHP;
     }
 
     /// <param name="factor">扣多少血</param>
@@ -116,6 +93,6 @@ public class Player : MonoBehaviour {
     {
         OnHealthChange(-factor);
         //通知UI
-        Messenger<int, int>.Broadcast("UpdatePlayerHPHandle", currentHP, maxHP);
+        Messenger<int, int>.Broadcast(UIEvent.Update_PlayerHP, currentHP, maxHP);
     }
 }

@@ -1,0 +1,96 @@
+newmtl character:character_032brown
+illum 4
+Kd 0.06 0.02 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_032brown_043LIGHT
+illum 4
+Kd 0.15 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_032brwon
+illum 4
+Kd 0.73 0.31 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_032skin
+illum 4
+Kd 0.71 0.18 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_blush
+illum 4
+Kd 0.72 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_bright
+illum 4
+Kd 0.17 0.80 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_eye_balck
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_skin_dark
+illum 4
+Kd 0.00 0.17 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_skin_green
+illum 4
+Kd 0.00 0.80 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:character_skin_green2
+illum 4
+Kd 0.23 0.80 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:croal_deepyellow
+illum 4
+Kd 0.80 0.80 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00
+newmtl character:seedweed
+illum 4
+Kd 0.00 0.17 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 256.00

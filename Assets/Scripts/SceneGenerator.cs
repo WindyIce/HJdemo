@@ -65,10 +65,10 @@ public class SceneGenerator : BaseSingleton<SceneGenerator> {
                             obj.transform.localScale = new Vector3(eachLength, 3.0f, eachHeight);
                             break;
                         case 3:
-                            obj.GetComponent<Oil>().Init(eachLength, eachHeight);
+                            //obj.GetComponent<Oil>().Init(eachLength, eachHeight);
                             break;
                         case 7:
-                            SceneManager.Instance().playerObject = obj;
+                            //SceneManager.Instance().playerObject = obj;
                             SceneManager.Instance().player = obj.GetComponent<Player>();
                             break;
                         case 8:

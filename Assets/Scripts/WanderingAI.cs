@@ -68,7 +68,7 @@ public class WanderingAI : MonoBehaviour
 
             GameObject hitObject = hit.transform.gameObject;
 
-            if (hitObject == SceneManager.Instance().playerObject)
+            if (hitObject == SceneManager.Instance().PlayerObject)
             {
 
             }

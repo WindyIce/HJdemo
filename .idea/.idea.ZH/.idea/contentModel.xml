@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\温文镇\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\温文镇\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_ZH.-136791089.00" t="ExcludeRecursive" />
+    <e p="E:\ZH" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Resources" t="Include">
+          <e p="Configs" t="Include">
+            <e p="map.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="Coral.cs" t="Include" />
+          <e p="Core" t="Include">
+            <e p="GameRoot.cs" t="Include" />
+          </e>
+          <e p="ExitPoint.cs" t="Include" />
+          <e p="GUIUtil.cs" t="Include" />
+          <e p="Messenger.cs" t="Include" />
+          <e p="MyScripts" t="Include">
+            <e p="UIScripts" t="Include">
+              <e p="MainView.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Obstacle.cs" t="Include" />
+          <e p="Oil.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="SceneGenerator.cs" t="Include" />
+          <e p="SceneManager.cs" t="Include" />
+          <e p="SubtitleParser.cs" t="Include" />
+          <e p="UIFramework" t="Include">
+            <e p="GameUI" t="Include">
+              <e p="AsyLoadUIForm.cs" t="Include" />
+              <e p="BalanceUIForm.cs" t="Include" />
+              <e p="LobbyUIForm.cs" t="Include" />
+              <e p="MainsceneUIForm.cs" t="Include" />
+              <e p="UIFormsName.cs" t="Include" />
+            </e>
+            <e p="UIFW" t="Include">
+              <e p="BaseUIForm.cs" t="Include" />
+              <e p="Config" t="Include">
+                <e p="ConfigManager.cs" t="Include" />
+                <e p="PalformDefine.cs" t="Include" />
+                <e p="SysDefine.cs" t="Include" />
+              </e>
+              <e p="EventProcess" t="Include">
+                <e p="EventCenter.cs" t="Include" />
+                <e p="EventListener.cs" t="Include" />
+              </e>
+              <e p="Helps" t="Include">
+                <e p="Helper.cs" t="Include" />
+                <e p="MaskManager.cs" t="Include" />
+                <e p="ResourcesManager.cs" t="Include" />
+              </e>
+              <e p="UIManager.cs" t="Include" />
+              <e p="UIType.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WanderingAI.cs" t="Include" />
+          <e p="WISingleton.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="ZH.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

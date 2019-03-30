@@ -13,21 +13,24 @@ public class Oil : MonoBehaviour {
 
     [Header("扩张的速度")]
     public float makeSonSpeed;
-    [Header("扩张的最大程度（几倍的格子）")]
+    [Header("扩张的最大程度（倍率）")]
     public float maxSize;
 
-    public void Init(float _length, float _height)
-    {
-        length = _length;
-        height = _height;
-        timer = 0f;
-        transform.localScale = new Vector3(length, transform.localScale.y, height);
-    }
+//    public void Init(float _length, float _height)
+//    {
+//        length = _length;
+//        height = _height;
+//        timer = 0f;
+//        transform.localScale = new Vector3(length, transform.localScale.y, height);
+//    }
 
 	// Use this for initialization
-	void Start () {
-		
-	}
+    private void Awake()
+    {
+        length = transform.localScale.x;
+        height = transform.localScale.y;
+        timer = 0;
+    }
 
     private int hasCreate = 0;
 	

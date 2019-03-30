@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: a53a6580b61a21f4d8eeb2d9f70ba887
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: character
+    100006: character (10)
+    100008: character (11)
+    100010: character (12)
+    100012: character (13)
+    100014: character (14)
+    100016: character (15)
+    100018: character (16)
+    100020: character (17)
+    100022: character (18)
+    100024: character (19)
+    100026: character (2)
+    100028: character (20)
+    100030: character (21)
+    100032: character (22)
+    100034: character (23)
+    100036: character (24)
+    100038: character (25)
+    100040: character (26)
+    100042: character (27)
+    100044: character (28)
+    100046: character (29)
+    100048: character (30)
+    100050: character (31)
+    100052: character (32)
+    100054: character (33)
+    100056: character (34)
+    100058: character (4)
+    100060: character (5)
+    100062: character (6)
+    100064: character (7)
+    100066: character (7) (2)
+    100068: character (8)
+    100070: character (9)
+    100072: Directional Light
+    100074: Mesh
+    400000: Camera
+    400002: //RootNode
+    400004: character
+    400006: character (10)
+    400008: character (11)
+    400010: character (12)
+    400012: character (13)
+    400014: character (14)
+    400016: character (15)
+    400018: character (16)
+    400020: character (17)
+    400022: character (18)
+    400024: character (19)
+    400026: character (2)
+    400028: character (20)
+    400030: character (21)
+    400032: character (22)
+    400034: character (23)
+    400036: character (24)
+    400038: character (25)
+    400040: character (26)
+    400042: character (27)
+    400044: character (28)
+    400046: character (29)
+    400048: character (30)
+    400050: character (31)
+    400052: character (32)
+    400054: character (33)
+    400056: character (34)
+    400058: character (4)
+    400060: character (5)
+    400062: character (6)
+    400064: character (7)
+    400066: character (7) (2)
+    400068: character (8)
+    400070: character (9)
+    400072: Directional Light
+    400074: Mesh
+    2000000: Camera
+    2100000: seedweed
+    2100002: character brwon
+    2100004: character_bright
+    2100006: character skin
+    2100008: character_skin_green
+    2100010: character brown
+    2100012: character_eye_balck
+    2100014: character_skin_dark
+    2100016: character brown+LIGHT
+    2100018: croal_deepyellow
+    2100020: character_skin_green2
+    2100022: character_blush
+    2300000: character
+    2300002: character (10)
+    2300004: character (11)
+    2300006: character (12)
+    2300008: character (13)
+    2300010: character (14)
+    2300012: character (15)
+    2300014: character (16)
+    2300016: character (17)
+    2300018: character (18)
+    2300020: character (19)
+    2300022: character (2)
+    2300024: character (20)
+    2300026: character (21)
+    2300028: character (22)
+    2300030: character (23)
+    2300032: character (24)
+    2300034: character (25)
+    2300036: character (26)
+    2300038: character (27)
+    2300040: character (28)
+    2300042: character (29)
+    2300044: character (30)
+    2300046: character (31)
+    2300048: character (32)
+    2300050: character (33)
+    2300052: character (4)
+    2300054: character (5)
+    2300056: character (6)
+    2300058: character (7)
+    2300060: character (8)
+    2300062: character (9)
+    3300000: character
+    3300002: character (10)
+    3300004: character (11)
+    3300006: character (12)
+    3300008: character (13)
+    3300010: character (14)
+    3300012: character (15)
+    3300014: character (16)
+    3300016: character (17)
+    3300018: character (18)
+    3300020: character (19)
+    3300022: character (2)
+    3300024: character (20)
+    3300026: character (21)
+    3300028: character (22)
+    3300030: character (23)
+    3300032: character (24)
+    3300034: character (25)
+    3300036: character (26)
+    3300038: character (27)
+    3300040: character (28)
+    3300042: character (29)
+    3300044: character (30)
+    3300046: character (31)
+    3300048: character (32)
+    3300050: character (33)
+    3300052: character (4)
+    3300054: character (5)
+    3300056: character (6)
+    3300058: character (7)
+    3300060: character (8)
+    3300062: character (9)
+    4300000: character (4)
+    4300002: character
+    4300004: character (5)
+    4300006: character (2)
+    4300008: character (13)
+    4300010: character (7)
+    4300012: character (17)
+    4300014: character (11)
+    4300016: character (8)
+    4300018: character (6)
+    4300020: character (14)
+    4300022: character (15)
+    4300024: character (9)
+    4300026: character (10)
+    4300028: character (12)
+    4300030: character (16)
+    4300032: character (18)
+    4300034: character (19)
+    4300036: character (20)
+    4300038: character (21)
+    4300040: character (22)
+    4300042: character (24)
+    4300044: character (23)
+    4300046: character (28)
+    4300048: character (29)
+    4300050: character (27)
+    4300052: character (25)
+    4300054: character (30)
+    4300056: character (26)
+    4300058: character (31)
+    4300060: character (32)
+    4300062: character (33)
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Directional Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
