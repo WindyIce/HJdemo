@@ -33,7 +33,11 @@ namespace Editor
             setPosIndex = EditorGUILayout.IntField(setPosIndex, GUILayout.Width(50));
             if (GUILayout.Button("确认",GUILayout.Height(30)))
             {
-                view.SetPos(setPosIndex);
+                if (setPosIndex > view.movePoint.Count)
+                {
+                    Debug.LogError("你跳转到了没有的坐标点！");
+                }else
+                    view.SetPos(setPosIndex);
             }
             EditorGUILayout.EndHorizontal();
             if (GUILayout.Button("Clear",GUILayout.Height(30)))
