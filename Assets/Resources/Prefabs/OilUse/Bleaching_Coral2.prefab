@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4951844946695468}
+  - component: {fileID: 65355456575080628}
   m_Layer: 0
   m_Name: Bleaching_Coral2
   m_TagString: Untagged
@@ -1368,6 +1369,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1507166316205536}
   m_Mesh: {fileID: 4300014, guid: 5c8f260c946432648bc636e971c20227, type: 3}
+--- !u!65 &65355456575080628
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1110652780426846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.54, z: 0}
 --- !u!95 &95482351368393986
 Animator:
   serializedVersion: 3

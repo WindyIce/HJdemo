@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - TagCanvas
+  - Healthy_Seaweed
+  - Health_Coral1
+  - Health_Coral2
   layers:
   - Default
   - TransparentFX

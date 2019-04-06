@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider))]
 public class Obstacle : MonoBehaviour {
 
     [Header("撞击扣多少血")]
