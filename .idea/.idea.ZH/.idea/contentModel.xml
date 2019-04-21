@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Editor" t="Include">
           <e p="AutoMoveContorllerEditor.cs" t="Include" />
+          <e p="IngameUIViewEditor.cs" t="Include" />
           <e p="UtilEditor.cs" t="Include" />
         </e>
         <e p="Resources" t="Include">
@@ -26,23 +27,27 @@
           <e p="GUIUtil.cs" t="Include" />
           <e p="Messenger.cs" t="Include" />
           <e p="MyScripts" t="Include">
-            <e p="UIScripts" t="Include">
-              <e p="GameScripts" t="Include">
-                <e p="Config" t="Include">
-                  <e p="ConfigBase.cs" t="Include" />
-                  <e p="GameConfig.cs" t="Include" />
-                </e>
-                <e p="Controller" t="Include">
-                  <e p="AutoMoveController.cs" t="Include" />
-                </e>
-                <e p="Data" t="Include">
-                  <e p="TagType.cs" t="Include" />
-                </e>
-                <e p="Services" t="Include">
-                  <e p="InstanceBase.cs" t="Include" />
-                  <e p="MoveService.cs" t="Include" />
-                </e>
+            <e p="GameScripts" t="Include">
+              <e p="Config" t="Include">
+                <e p="ConfigBase.cs" t="Include" />
+                <e p="GameConfig.cs" t="Include" />
               </e>
+              <e p="Controller" t="Include">
+                <e p="AutoMoveController.cs" t="Include" />
+              </e>
+              <e p="Data" t="Include">
+                <e p="TagType.cs" t="Include" />
+              </e>
+              <e p="Services" t="Include">
+                <e p="InstanceBase.cs" t="Include" />
+                <e p="MoveService.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Service" t="Include">
+              <e p="IngameUIService.cs" t="Include" />
+            </e>
+            <e p="UIScripts" t="Include">
+              <e p="IngameUIViewTools.cs" t="Include" />
               <e p="MainView.cs" t="Include" />
             </e>
           </e>
