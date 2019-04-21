@@ -8,6 +8,7 @@ TagManager:
   - Healthy_Seaweed
   - Health_Coral1
   - Health_Coral2
+  - Exit
   layers:
   - Default
   - TransparentFX

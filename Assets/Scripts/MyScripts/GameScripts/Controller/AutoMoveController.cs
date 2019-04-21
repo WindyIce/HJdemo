@@ -28,11 +28,15 @@ public class AutoMoveController : MonoBehaviour
 	private void Awake()
 	{
 		stayTime = changePointStayTime;
+		if (movePoint.Count <= 1)
+		{
+			Debug.Log("物体："+ name +" 没有超过一个的自动移动坐标，请设置否则无法移动");
+		}
 	}
 
 	private void Update()
 	{
-		if (movePoint.Count <= 0) return;
+		if (movePoint.Count <= 1) return;
 		stayTime -= Time.deltaTime;
 		MoveService.Ins.LerpTransform(movePoint[nextIndex],transform,rotateSpeed);
 		//如果还在等待就不移动只转动

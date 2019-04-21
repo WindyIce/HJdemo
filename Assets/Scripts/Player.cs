@@ -21,8 +21,8 @@ public class Player : MonoBehaviour {
 
     [Header("旋转改变速度")]
     public float rotationChangeSpeed = 1f;
-
-    public bool movementLock = false;
+    [HideInInspector]
+    private bool movementLock = true;
 
     [Header("玩家移动速度")]
     public float speed = 1f;
@@ -94,5 +94,10 @@ public class Player : MonoBehaviour {
         OnHealthChange(-factor);
         //通知UI
         Messenger<int, int>.Broadcast(UIEvent.Update_PlayerHP, currentHP, maxHP);
+    }
+
+    public void SetMovementLock(bool isOpen)
+    {
+        movementLock = isOpen;
     }
 }

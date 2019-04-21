@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SceneManager : BaseSingleton<SceneManager> {
-
+    
     private GameObject playerObject;
 
     public GameObject PlayerObject
@@ -23,11 +23,22 @@ public class SceneManager : BaseSingleton<SceneManager> {
     [HideInInspector]
     public Player player;
 
-    public Text coralText;
+    public Player Player
+    {
+        get
+        {
+            if (player == null)
+            {
+                player= PlayerObject.GetComponent<Player>();
+            }
 
+            return player;
+        }
+    }
+    
     [Header("需要多少个珊瑚过关")]
     public int coralNeeded = 10;
-    private int coralGot = 0;
+    public int coralGot = 0;
 
     public GameObject exitPoint;
 
@@ -74,24 +85,28 @@ public class SceneManager : BaseSingleton<SceneManager> {
         {
             coralGot = coralNeeded;
             ExitPointOpen();
-            coralText.text = "Enough Coral!";
+            //coralText.text = "Enough Coral!";
         }
         else
         {
-            coralText.text = "Coral still needed: " + (coralNeeded - coralGot);
+            //coralText.text = "Coral still needed: " + (coralNeeded - coralGot);
         }
-        Messenger<int>.Broadcast(UIEvent.Update_StillNeedNum, coralNeeded - coralGot);
+        Messenger<int,int>.Broadcast(UIEvent.Update_StillNeedNum, coralNeeded , coralGot);
     }
 
     public void ExitPointOpen()
     {
+        if (exitPoint == null)
+        {
+            exitPoint = GameObject.FindWithTag(TagType.Exit.ToString());
+        }
         exitPoint.SetActive(true);
     }
 
 	// Use this for initialization
 	void Start () {
-        coralText.text = "Coral still needed: " + coralNeeded;
-        noticeText.text = "";
+        //coralText.text = "Coral still needed: " + coralNeeded;
+        //noticeText.text = "";
         if (player == null)
         {
             player = PlayerObject==null?null:PlayerObject.GetComponent<Player>();
