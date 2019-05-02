@@ -5,10 +5,10 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-public class GameConfig : ConfigBase<GameConfig>
+public class GameConfig //: ConfigBase<GameConfig>
 {
-	[Header("在场景中实时显示所有的自动移动路径线")]
-	public bool isShowAutoMoveLineInScene = true;
+//	[Header("在场景中实时显示所有的自动移动路径线")]
+//	public bool isShowAutoMoveLineInScene = true;
 	
 //	[Header("自动寻路添加坐标点的快捷键"),Space(30)]
 //	public bool autoMove_Ctrl = true;

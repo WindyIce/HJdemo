@@ -93,10 +93,11 @@ public class AutoMoveController : MonoBehaviour
 
 	private void OnDrawGizmos()
 	{
-		if (GameConfig.Ins.isShowAutoMoveLineInScene)
-		{
-			DrawWay();
-		}
+		
+		DrawWay();
+//		if (GameConfig.Ins.isShowAutoMoveLineInScene)
+//		{
+//		}
 	}
 
 	private void OnDrawGizmosSelected()
