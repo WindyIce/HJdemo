@@ -30,7 +30,7 @@ public class Player : MonoBehaviour {
     private void Start()
     {
         currentHP = maxHP;
-        Messenger<int, int>.Broadcast(UIEvent.Update_PlayerHP, maxHP, maxHP);
+        //Messenger<int, int>.Broadcast(UIEvent.Update_PlayerHP, maxHP, maxHP);
     }
 
     public void FixedUpdate()

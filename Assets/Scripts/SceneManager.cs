@@ -44,7 +44,6 @@ public class SceneManager : BaseSingleton<SceneManager> {
 
     #region 消息事件
 
-    public Text noticeText;
 
     private void Awake()
     {
@@ -60,14 +59,16 @@ public class SceneManager : BaseSingleton<SceneManager> {
 
     private void OnGameOver()
     {
-        noticeText.text = "You lose";
-        StartCoroutine(WaitForEnd());
+       // noticeText.text = "You lose";
+       // StartCoroutine(WaitForEnd());
+        player.SetMovementLock(true);
     }
 
     private void OnGameWin()
     {
-        noticeText.text = "You win";
-        StartCoroutine(WaitForEnd());
+        //noticeText.text = "You win";
+       // StartCoroutine(WaitForEnd());
+        player.SetMovementLock(true);
     }
 
     private IEnumerator WaitForEnd(float second = 3f)

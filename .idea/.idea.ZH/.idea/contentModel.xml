@@ -34,6 +34,8 @@
               </e>
               <e p="Controller" t="Include">
                 <e p="AutoMoveController.cs" t="Include" />
+                <e p="MenuController.cs" t="Include" />
+                <e p="PlayerVideoController.cs" t="Include" />
               </e>
               <e p="Data" t="Include">
                 <e p="TagType.cs" t="Include" />

@@ -25891,14 +25891,14 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1821990728298622
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4648021400777194}
   m_Layer: 0
-  m_Name: FISH_Nocenter
+  m_Name: FISH_Nocenter (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27706,6 +27706,22 @@ GameObject:
   - component: {fileID: 23789297158448182}
   m_Layer: 0
   m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1871255989643410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4275675140201352}
+  - component: {fileID: 114639043757741650}
+  m_Layer: 0
+  m_Name: FISH_Nocenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38964,6 +38980,20 @@ Transform:
   m_Father: {fileID: 4726670570664980}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4275675140201352
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871255989643410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.107099995, y: 1.84, z: 0.0174}
+  m_LocalScale: {x: 0.0625, y: 1, z: 0.037037037}
+  m_Children:
+  - {fileID: 4648021400777194}
+  m_Father: {fileID: 4774998988842750}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4275815293650438
 Transform:
   m_ObjectHideFlags: 1
@@ -47999,8 +48029,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713478318696506}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.057, y: -3.46, z: -3.635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9203994, y: -4.1, z: -3.7406902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4070713062736324}
@@ -48388,14 +48418,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1821990728298622}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11437501, y: 2.23, z: -0.05555591}
-  m_LocalScale: {x: 0.0625, y: 1, z: 0.037037037}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4632801452815926}
-  m_Father: {fileID: 4774998988842750}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 4275675140201352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4649595252486980
 Transform:
   m_ObjectHideFlags: 1
@@ -51548,7 +51578,7 @@ Transform:
   - {fileID: 4336592594934190}
   - {fileID: 4143064670154808}
   - {fileID: 4893533826146858}
-  - {fileID: 4648021400777194}
+  - {fileID: 4275675140201352}
   - {fileID: 4123764103240028}
   - {fileID: 4059716448369780}
   - {fileID: 4998965896463290}
@@ -120302,7 +120332,6 @@ MonoBehaviour:
   currentHP: 0
   healthText: {fileID: 0}
   rotationChangeSpeed: 10
-  movementLock: 0
   speed: 0.5
 --- !u!114 &114202861218237990
 MonoBehaviour:
@@ -120642,6 +120671,26 @@ MonoBehaviour:
   minusHP: 1
   hitInterval: 1
   hitMode: 1
+--- !u!114 &114639043757741650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871255989643410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaa4730498b8854b8bd025cfeffec24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePoint:
+  - {x: -4.3036, y: 1.84, z: -11.7602}
+  - {x: -4.3036, y: 1.84, z: -15.7049}
+  - {x: -2.1996, y: 1.84, z: -15.7049}
+  autoMoveSpeed: 1
+  disOffset: 0.2
+  changePointStayTime: 0.5
+  rotateSpeed: 5
+  isIncrease: 1
 --- !u!114 &114655130127255436
 MonoBehaviour:
   m_ObjectHideFlags: 1
